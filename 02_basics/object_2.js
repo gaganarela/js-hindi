@@ -53,3 +53,22 @@ users[1].email
 // console.log(Object.entries(tinderUser)); //array of arrays containing key and values individually
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); //boolean to check whether ot contains or not
+
+const course={
+    courseInstructor:"gagan",
+    id:"343423",
+    courseName:"fjshg"
+}
+
+const {courseInstructor}= course //object de-structuring
+console.log(courseInstructor);
+
+const {courseName: Name}=course //renaming to get faster access
+console.log(Name);
+
+// {                        //a type of json file.......api
+//     "name" : "fgjsah"
+//     "course" : "fdshgjf"
+// }
+
+
