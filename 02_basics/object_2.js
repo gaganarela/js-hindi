@@ -1,4 +1,4 @@
-// const tinderUser = new Object()
+// const tinderUser = new Object() //singleton obj
 const tinderUser = {}
 
 tinderUser.id = "123abc"
